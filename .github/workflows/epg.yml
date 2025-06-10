@@ -24,27 +24,42 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libxml2-utils
           mkdir -p epg
-          cat files.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while read -r filename url; do
-            echo "Downloading $filename from $url"
+          
+          cat files.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while IFS= read -r line; do
+            filename=$(echo "$line" | awk '{print $1}')
+            urls=$(echo "$line" | cut -d' ' -f2- | tr ',' '\n' | sed 's/^[ \t]*//;s/[ \t]*$//')
             xml_file="epg/$filename"
             xml_file_tmp="$xml_file.tmp"
-            if [[ "$url" == "https://assets.livednow.com/epg.xml" ]]; then
-              curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url" || true
-            else
-              curl --retry 5 -o "$xml_file_tmp" "$url" || true
-            fi
-            if grep -iq "404 Not Found" "$xml_file_tmp"; then
-              echo "文件包含404错误"
-            elif [ ! -f "$xml_file" ] || ! cmp -s "$xml_file_tmp" "$xml_file"; then
+            success=0
+
+            for url in $urls; do
+              echo "尝试下载 $filename 从 $url"
+              if [[ "$url" == "https://assets.livednow.com/epg.xml" ]]; then
+                curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url" || continue
+              else
+                curl --retry 5 -o "$xml_file_tmp" "$url" || continue
+              fi
+
+              if grep -iq "404 Not Found" "$xml_file_tmp"; then
+                echo "$url 返回了 404 错误，尝试下一个"
+                continue
+              fi
+
               if xmllint --noout "$xml_file_tmp"; then
+                echo "成功下载并验证 XML：$filename"
                 mv "$xml_file_tmp" "$xml_file"
                 gzip -kf "$xml_file"
+                success=1
+                break
               else
-                echo "无效的 XML 文件：$filename，已跳过"
+                echo "无效的 XML 文件：$filename，尝试下一个"
               fi
-            fi
+            done
+
+            [ $success -eq 0 ] && echo "$filename 所有URL均失败"
             rm -f "$xml_file_tmp"
           done
+          
           cat files.json | jq -r 'keys[]' | while read -r filename; do
             echo "FILENAME_$filename=epg/$filename" >> $GITHUB_ENV
             echo "FILENAME_${filename%.xml}.gz=epg/${filename%.xml}.gz" >> $GITHUB_ENV
