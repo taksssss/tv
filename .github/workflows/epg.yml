@@ -13,53 +13,55 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install jq (for parsing JSON)
-        run: sudo apt-get install -y jq
+      - name: Install dependencies
+        run: |
+          sudo sed -i 's|http://.*.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list
+          sudo apt-get update
+          sudo apt-get install -y jq curl libxml2-utils
 
       - name: Download files from files.json
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
-          sudo sed -i 's|http://.*.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list
-          sudo apt-get update
-          sudo apt-get install -y libxml2-utils
           mkdir -p epg
-          
-          cat files.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while IFS= read -r line; do
-            filename=$(echo "$line" | awk '{print $1}')
-            urls=$(echo "$line" | cut -d' ' -f2- | tr ',' '\n' | sed 's/^[ \t]*//;s/[ \t]*$//')
+          cat files.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while read -r filename urls; do
+            echo "处理文件: $filename"
             xml_file="epg/$filename"
             xml_file_tmp="$xml_file.tmp"
-            success=0
+            success=false
 
-            for url in $urls; do
-              echo "尝试下载 $filename 从 $url"
-              if [[ "$url" == "https://assets.livednow.com/epg.xml" ]]; then
-                curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url" || continue
+            IFS=',' read -ra URL_LIST <<< "$urls"
+            for url in "${URL_LIST[@]}"; do
+              url_trimmed=$(echo "$url" | xargs)  # 去除前后空格
+              echo "尝试下载: $url_trimmed"
+              if [[ "$url_trimmed" == "https://assets.livednow.com/epg.xml" ]]; then
+                curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url_trimmed" || continue
               else
-                curl --retry 5 -o "$xml_file_tmp" "$url" || continue
+                curl --retry 5 -o "$xml_file_tmp" "$url_trimmed" || continue
               fi
 
               if grep -iq "404 Not Found" "$xml_file_tmp"; then
-                echo "$url 返回了 404 错误，尝试下一个"
+                echo "下载内容包含404错误，继续尝试下一个URL"
                 continue
               fi
 
               if xmllint --noout "$xml_file_tmp"; then
-                echo "成功下载并验证 XML：$filename"
                 mv "$xml_file_tmp" "$xml_file"
                 gzip -kf "$xml_file"
-                success=1
+                success=true
+                echo "成功下载并验证: $filename"
                 break
               else
-                echo "无效的 XML 文件：$filename，尝试下一个"
+                echo "无效的XML文件: $filename，尝试下一个URL"
               fi
             done
 
-            [ $success -eq 0 ] && echo "$filename 所有URL均失败"
             rm -f "$xml_file_tmp"
+            if [ "$success" = false ]; then
+              echo "所有URL均尝试失败：$filename"
+            fi
           done
-          
+
           cat files.json | jq -r 'keys[]' | while read -r filename; do
             echo "FILENAME_$filename=epg/$filename" >> $GITHUB_ENV
             echo "FILENAME_${filename%.xml}.gz=epg/${filename%.xml}.gz" >> $GITHUB_ENV
@@ -77,6 +79,7 @@ jobs:
           else
             echo "没有文件可提交"
           fi
+
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v3
         with:
