@@ -72,7 +72,7 @@ jobs:
 
       - name: Fetch and Parse 51zmt Icons
         run: |
-          if curl --fail -o assets/51zmt.m3u.tmp http://epg.51zmt.top:8000/test.m3u; then
+          if curl --fail -o assets/51zmt.m3u.tmp https://epg.51zmt.top:8001/test.m3u; then
             mv assets/51zmt.m3u.tmp assets/51zmt.m3u
           else
             rm assets/51zmt.m3u.tmp 2>/dev/null
@@ -133,7 +133,7 @@ jobs:
       - name: Copy GDCMCCIPTV, MyUKJ and Others Icons
         run: |
           for folder in assets/gdcmcciptv assets/myukj assets/others; do
-            for file in $folder/*.png; do
+            find "$folder" -type f -name "*.png" | while read -r file; do
               filename=$(basename "$file" .png | tr '[:lower:]' '[:upper:]' | sed 's/[ _-]//g')
               if [ ! -f "icon_new/${filename}.png" ]; then
                 echo "Copying $filename to icon_new"
