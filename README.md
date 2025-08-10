@@ -1,4 +1,4 @@
-自动同步到 `gitee`。
+自动同步到 [gitee](https://gitee.com/taksssss/tv)。
 
 每 `2` 小时检测一次更新。
 
@@ -21,6 +21,8 @@ https://gitee.com/taksssss/tv/raw/main/epg/erw.xml.gz
 ```
 
 **[epg.pw](https://epg.pw/index.html)**
+
+⚠️ 已将错误的 `+0000` 时区修改为 `+0800`
 
 ```
 https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz
