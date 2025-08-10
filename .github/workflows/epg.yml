@@ -33,6 +33,12 @@ jobs:
             else
               curl --retry 5 -o "$xml_file_tmp" "$url" || true
             fi
+
+            # 如果 URL 包含 epg.pw，替换内容
+            if [[ "$url" == *"epg.pw"* ]]; then
+              sed -i 's/+0000/+0800/g' "$xml_file_tmp"
+            fi
+
             if grep -iq "404 Not Found" "$xml_file_tmp"; then
               echo "文件包含404错误"
             elif [ ! -f "$xml_file" ] || ! cmp -s "$xml_file_tmp" "$xml_file"; then
