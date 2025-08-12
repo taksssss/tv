@@ -94,42 +94,6 @@ jobs:
             fi
           done | xargs -P 8 -n 2 bash -c 'curl -s "$0" -o "$1"'
 
-      - name: Fetch and Parse livednow Icons
-        env:
-            PROXY_URL: ${{ secrets.PROXY_URL }}
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y opencc
-          
-          curl -x "$PROXY_URL" -o guide.html https://assets.livednow.com/guide.html
-          awk -F'\\| *' '/\| *频道 ID *\| *频道名称 *\| *Logo URL *\| *EPG 状态 */ {
-            getline;
-          } 
-          NF > 3 {
-            gsub(/`|\\/, "", $4);
-            gsub(/\*\*/, "", $3);
-            channel_name = toupper($3);
-            gsub(/[ _-]/, "", channel_name);
-            sub(/频道$|頻道$|电视台$|電視台$|電視臺$|台$|臺$/, "", channel_name);
-            if ($4 != "" && !index(channel_name, "CCTV") && $4 ~ /^(http|https):\/\/[^\s]+/) {
-              printf "%s %s\n", channel_name, $4;
-            }
-          }' guide.html | while read -r channel_name logo_url; do
-            simp_channel_name=$(echo "$channel_name" | opencc -c t2s)
-            output_file="icon_new/${simp_channel_name}.png"
-            if [ ! -f "$output_file" ]; then
-              if [ ! -f "assets/livednow/${simp_channel_name}.png" ]; then
-                echo "Downloading $logo_url as $output_file"
-                curl -x "$PROXY_URL" -s "$logo_url" -o "$output_file"
-              else
-                echo "Copying existing file to $output_file"
-                cp "assets/livednow/${simp_channel_name}.png" "$output_file"
-              fi
-            else
-              echo "$output_file already exists, skipping"
-            fi
-          done
-
       - name: Copy GDCMCCIPTV, MyUKJ and Others Icons
         run: |
           for folder in assets/gdcmcciptv assets/myukj assets/others; do
