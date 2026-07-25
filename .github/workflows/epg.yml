@@ -52,7 +52,7 @@ jobs:
             raw_tmp="$xml_file.raw"
             HTTP_CODE=0
 
-            HTTP_CODE=$(curl -k --retry 5 \
+            HTTP_CODE=$(curl -k -L --retry 5 \
               -w "%{http_code}" -o "$raw_tmp" "$request_url" || echo 0)
 
             # HTTP 状态码判断（带24小时容错）
