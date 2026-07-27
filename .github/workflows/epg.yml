@@ -164,12 +164,17 @@ jobs:
             fi
 
             if [ -z "$LAST_UPDATE_STR" ]; then
-              EXPIRED_FILES="$EXPIRED_FILES\n$(basename "$f")（无更新时间记录）"
-              continue
-            fi
-
+              LAST_COMMIT_TS=$(git log -1 --format=%ct -- "$f" 2>/dev/null || echo 0)
+              if [ "$LAST_COMMIT_TS" -gt 0 ]; then
+                LAST_UPDATE_TS="$LAST_COMMIT_TS"
+              else
+                EXPIRED_FILES="$EXPIRED_FILES\n$(basename "$f")（无更新时间记录）"
+                continue
+              fi
+            else
             # 将 "YYYY-MM-DD HH:MM:SS" 格式的 UTC+8 时间转换回时间戳
             LAST_UPDATE_TS=$(TZ='Asia/Shanghai' date -d "$LAST_UPDATE_STR" +%s 2>/dev/null || echo 0)
+            fi
             
             if [ "$LAST_UPDATE_TS" -eq 0 ]; then
               EXPIRED_FILES="$EXPIRED_FILES\n$(basename "$f")（无法解析更新时间）"
