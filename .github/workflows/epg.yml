@@ -107,20 +107,20 @@ jobs:
               continue
             fi
 
-            # 记录最后一次成功更新时间（下载成功 + XML 校验通过）
-            ts_now=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-            update_tmp=$(mktemp)
-            if jq --arg fn "$filename" --arg ts "$ts_now" '.[$fn] = $ts' "$LAST_UPDATE_FILE" > "$update_tmp"; then
-              mv "$update_tmp" "$LAST_UPDATE_FILE"
-            else
-              rm -f "$update_tmp"
-              echo "更新时间记录写入失败：$filename"
-            fi
-
-            # 内容变化才覆盖
+            # 内容变化才覆盖和更新时间
             if [ ! -f "$xml_file" ] || ! cmp -s "$xml_tmp" "$xml_file"; then
               mv "$xml_tmp" "$xml_file"
               gzip -kf "$xml_file"
+              
+              # 记录最后一次成功更新时间（只在文件内容实际变化时记录）
+              ts_now=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+              update_tmp=$(mktemp)
+              if jq --arg fn "$filename" --arg ts "$ts_now" '.[$fn] = $ts' "$LAST_UPDATE_FILE" > "$update_tmp"; then
+                mv "$update_tmp" "$LAST_UPDATE_FILE"
+              else
+                rm -f "$update_tmp"
+                echo "更新时间记录写入失败：$filename"
+              fi
             else
               rm -f "$xml_tmp"
             fi
