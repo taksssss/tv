@@ -25,6 +25,8 @@ jobs:
           sudo apt-get install -y libxml2-utils file
 
           mkdir -p epg
+          LAST_UPDATE_FILE="epg/last_update.json"
+          [ -f "$LAST_UPDATE_FILE" ] || echo '{}' > "$LAST_UPDATE_FILE"
           FAILED_FILES=""
 
           while read -r filename url; do
@@ -105,6 +107,16 @@ jobs:
               continue
             fi
 
+            # 记录最后一次成功更新时间（下载成功 + XML 校验通过）
+            ts_now=$(date +%s)
+            update_tmp=$(mktemp)
+            if jq --arg fn "$filename" --argjson ts "$ts_now" '.[$fn] = $ts' "$LAST_UPDATE_FILE" > "$update_tmp"; then
+              mv "$update_tmp" "$LAST_UPDATE_FILE"
+            else
+              rm -f "$update_tmp"
+              echo "更新时间记录写入失败：$filename"
+            fi
+
             # 内容变化才覆盖
             if [ ! -f "$xml_file" ] || ! cmp -s "$xml_tmp" "$xml_file"; then
               mv "$xml_tmp" "$xml_file"
@@ -132,16 +144,24 @@ jobs:
         run: |
           THRESHOLD_DAYS=3
           NOW=$(date +%s)
+          LAST_UPDATE_FILE="epg/last_update.json"
           EXPIRED_FILES=""
 
-          for f in epg/*; do
+          for f in epg/*.xml; do
             [ -f "$f" ] || continue
 
-            LAST_COMMIT_TS=$(git log -1 --format=%ct -- "$f" 2>/dev/null || echo 0)
+            if [ -f "$LAST_UPDATE_FILE" ]; then
+              LAST_UPDATE_TS=$(jq -r --arg fn "$(basename "$f")" '.[$fn] // 0' "$LAST_UPDATE_FILE")
+            else
+              LAST_UPDATE_TS=0
+            fi
 
-            [ "$LAST_COMMIT_TS" -eq 0 ] && continue
+            if [ "$LAST_UPDATE_TS" -eq 0 ]; then
+              EXPIRED_FILES="$EXPIRED_FILES\n$(basename "$f")（无更新时间记录）"
+              continue
+            fi
 
-            DAYS=$(( (NOW - LAST_COMMIT_TS) / 86400 ))
+            DAYS=$(( (NOW - LAST_UPDATE_TS) / 86400 ))
 
             if [ "$DAYS" -ge "$THRESHOLD_DAYS" ]; then
               EXPIRED_FILES="$EXPIRED_FILES\n$(basename "$f")（${DAYS}天未更新）"
