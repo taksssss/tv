@@ -107,15 +107,22 @@ jobs:
               continue
             fi
 
-            # 内容变化才覆盖和更新时间
+            # 内容变化才覆盖
             if [ ! -f "$xml_file" ] || ! cmp -s "$xml_tmp" "$xml_file"; then
               mv "$xml_tmp" "$xml_file"
               gzip -kf "$xml_file"
               
-              # 记录最后一次成功更新时间（只在文件内容实际变化时记录）
-              ts_now=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+              # 文件内容实际变化时，记录最后一次提交的时间（可读格式 UTC+8）
+              LAST_COMMIT_TS=$(git log -1 --format=%ct -- "$xml_file" 2>/dev/null || echo 0)
+              if [ "$LAST_COMMIT_TS" -gt 0 ]; then
+                last_commit_date=$(TZ='Asia/Shanghai' date -d "@$LAST_COMMIT_TS" '+%Y-%m-%d %H:%M:%S')
+              else
+                # 如果没有 git 历史，使用当前时间
+                last_commit_date=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+              fi
+              
               update_tmp=$(mktemp)
-              if jq --arg fn "$filename" --arg ts "$ts_now" '.[$fn] = $ts' "$LAST_UPDATE_FILE" > "$update_tmp"; then
+              if jq --arg fn "$filename" --arg ts "$last_commit_date" '.[$fn] = $ts' "$LAST_UPDATE_FILE" > "$update_tmp"; then
                 mv "$update_tmp" "$LAST_UPDATE_FILE"
               else
                 rm -f "$update_tmp"
