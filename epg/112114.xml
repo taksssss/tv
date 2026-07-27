@@ -14595,6 +14595,12 @@
 	<programme channel="咪咕综合体育" start="20260727191500 +0800" stop="20260727221500 +0800">
 		<title lang="zh">一杆定音-2026斯诺克上海大师赛 第1轮 马克b7塞尔比-周跃龙 直播</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260727221500 +0800" stop="20260727222000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260727222000 +0800" stop="20260727000000 +0800">
+		<title lang="zh">全景世界杯-2026美加墨世界杯 决赛 西班牙-阿根廷</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -14678,6 +14684,12 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260727203500 +0800" stop="20260727221000 +0800">
 		<title lang="zh">NBL城燃之战-25/26赛季 总决赛G1 上海玄鸟-香港金牛</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260727221000 +0800" stop="20260727222000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260727222000 +0800" stop="20260727235500 +0800">
+		<title lang="zh">我爱女篮-25/26赛季季后赛 半决赛G1 四川蜀道远达-江苏南钢</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -50523,6 +50535,9 @@
 	<programme channel="newtv超级体育" start="20260727213000 +0800" stop="20260727223500 +0800">
 		<title lang="zh">体育世界</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20260727223500 +0800" stop="20260727003000 +0800">
+		<title lang="zh">体育精彩赛事</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
@@ -50570,6 +50585,9 @@
 	</programme>
 	<programme channel="newtv超级电影" start="20260727210800 +0800" stop="20260727223300 +0800">
 		<title lang="zh">神偷谍影</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260727223300 +0800" stop="20260727003700 +0800">
+		<title lang="zh">反抗军</title>
 	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
@@ -50666,6 +50684,9 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260727215700 +0800" stop="20260727224300 +0800">
 		<title lang="zh">18_乔家的儿女</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260727224300 +0800" stop="20260727233000 +0800">
+		<title lang="zh">19_乔家的儿女</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -51317,6 +51338,9 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260727214500 +0800" stop="20260727222900 +0800">
 		<title lang="zh">18_谍战深海之惊蛰[DVD版]</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260727222900 +0800" stop="20260727225900 +0800">
+		<title lang="zh">鲁韵梁山酒好物推荐</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
