@@ -14664,6 +14664,9 @@
 	<programme channel="咪咕足球" start="20260727144500 +0800" stop="20260727154500 +0800">
 		<title lang="zh">超级三对三-2026超三联赛</title>
 	</programme>
+	<programme channel="咪咕足球" start="20260727155000 +0800" stop="20260727165000 +0800">
+		<title lang="zh">中国榜样篮球季对话周琦</title>
+	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
 	</channel>
@@ -50640,6 +50643,9 @@
 	<programme channel="newtv超级电视剧" start="20260727145200 +0800" stop="20260727153800 +0800">
 		<title lang="zh">19_亲爱的，你在哪里</title>
 	</programme>
+	<programme channel="newtv超级电视剧" start="20260727153800 +0800" stop="20260727162200 +0800">
+		<title lang="zh">36_人间正道是沧桑</title>
+	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
 	</channel>
@@ -51257,6 +51263,12 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260727143100 +0800" stop="20260727150100 +0800">
 		<title lang="zh">肉苁蓉粉 仙草姬国药药材</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260727150100 +0800" stop="20260727154700 +0800">
+		<title lang="zh">28_无间</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260727154700 +0800" stop="20260727163200 +0800">
+		<title lang="zh">29_无间</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
