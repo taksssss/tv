@@ -17634,6 +17634,9 @@
 	<programme channel="咪咕足球" start="20260808090500 +0800" stop="20260808103500 +0800">
 		<title lang="zh">篮球：为爱而生01 热爱</title>
 	</programme>
+	<programme channel="咪咕足球" start="20260808104500 +0800" stop="20260808114500 +0800">
+		<title lang="zh">超级三对三-2026超三联赛</title>
+	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
 	</channel>
@@ -59415,6 +59418,9 @@
 	<programme channel="newtv超级综艺" start="20260808093500 +0800" stop="20260808110500 +0800">
 		<title lang="zh">味你而来</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260808110500 +0800" stop="20260808141000 +0800">
+		<title lang="zh">中国唱将</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -59472,6 +59478,9 @@
 	<programme channel="newtv超级电影" start="20260808093100 +0800" stop="20260808103900 +0800">
 		<title lang="zh">机械玩家</title>
 	</programme>
+	<programme channel="newtv超级电影" start="20260808103900 +0800" stop="20260808114200 +0800">
+		<title lang="zh">蛇形行动</title>
+	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
 	</channel>
@@ -59516,6 +59525,9 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260808101500 +0800" stop="20260808110100 +0800">
 		<title lang="zh">33_问心</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260808110100 +0800" stop="20260808114600 +0800">
+		<title lang="zh">34_问心</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -60113,6 +60125,12 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260808095700 +0800" stop="20260808104300 +0800">
 		<title lang="zh">20_红蔷薇（DVD版）</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260808104300 +0800" stop="20260808111300 +0800">
+		<title lang="zh">清心糕好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260808111300 +0800" stop="20260808115700 +0800">
+		<title lang="zh">16_风暴舞</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
