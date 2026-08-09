@@ -17631,6 +17631,9 @@
 	<programme channel="咪咕综合体育" start="20260809140000 +0800" stop="20260809161500 +0800">
 		<title lang="zh">全景世界杯-2026美加墨世界杯 决赛 西班牙-阿根廷</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260809162000 +0800" stop="20260809190000 +0800">
+		<title lang="zh">网球世界-2026WTA多哈站女单第2轮 帕克斯-郑钦文</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17684,6 +17687,15 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260809144500 +0800" stop="20260809154500 +0800">
 		<title lang="zh">超级三对三-2026超三联赛</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260809154500 +0800" stop="20260809155000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260809155000 +0800" stop="20260809165000 +0800">
+		<title lang="zh">中国榜样篮球季对话周鹏</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260809170000 +0800" stop="20260809184000 +0800">
+		<title lang="zh">NBL城燃之战-25/26赛季 常规赛第17轮 盐南苏科雄狮-湖北文旅</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -59610,6 +59622,12 @@
 	<programme channel="newtv超级体育" start="20260809140000 +0800" stop="20260809153000 +0800">
 		<title lang="zh">2026年世界职业拳王争霸赛</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20260809153000 +0800" stop="20260809170000 +0800">
+		<title lang="zh">实况录像-2026年世界男排联赛总决赛 决赛</title>
+	</programme>
+	<programme channel="newtv超级体育" start="20260809170000 +0800" stop="20260809173000 +0800">
+		<title lang="zh">体育新闻</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
@@ -59645,6 +59663,9 @@
 	</programme>
 	<programme channel="newtv超级电影" start="20260809144800 +0800" stop="20260809163600 +0800">
 		<title lang="zh">上海王</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260809163600 +0800" stop="20260809181400 +0800">
+		<title lang="zh">惊爆缉捕令</title>
 	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
@@ -59708,6 +59729,15 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260809144300 +0800" stop="20260809152800 +0800">
 		<title lang="zh">29_赛小花的远大前程</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260809152800 +0800" stop="20260809161300 +0800">
+		<title lang="zh">30_赛小花的远大前程</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260809161300 +0800" stop="20260809170300 +0800">
+		<title lang="zh">10_亲爱的仇敌</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260809170300 +0800" stop="20260809175000 +0800">
+		<title lang="zh">11_亲爱的仇敌</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -60329,6 +60359,12 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260809151300 +0800" stop="20260809155700 +0800">
 		<title lang="zh">25_风暴舞</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260809155700 +0800" stop="20260809162700 +0800">
+		<title lang="zh">鲜农宗土蜂蜜好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260809162700 +0800" stop="20260809171100 +0800">
+		<title lang="zh">26_风暴舞</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
