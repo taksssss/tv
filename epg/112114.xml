@@ -17625,6 +17625,9 @@
 	<programme channel="咪咕综合体育" start="20260809085000 +0800" stop="20260809103000 +0800">
 		<title lang="zh">中超来噜-2026赛季中超 第21轮 上海海港-山东泰山</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260809103000 +0800" stop="20260809135500 +0800">
+		<title lang="zh">国球荣耀-2026WTT横滨冠军赛 男女单打半决赛 直播</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17663,6 +17666,12 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260809090500 +0800" stop="20260809103500 +0800">
 		<title lang="zh">篮球：为爱而生02 爱国主义与抗议</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260809104500 +0800" stop="20260809114500 +0800">
+		<title lang="zh">超级三对三-2026超三联赛</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260809115000 +0800" stop="20260809120000 +0800">
+		<title lang="zh">绝对独家对话邱彪</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -59538,6 +59547,9 @@
 	<programme channel="newtv超级综艺" start="20260809093000 +0800" stop="20260809111500 +0800">
 		<title lang="zh">乐在旅途 第三季</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260809111500 +0800" stop="20260809125300 +0800">
+		<title lang="zh">此生要去的100个地方</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -59568,6 +59580,9 @@
 	<programme channel="newtv超级体育" start="20260809090000 +0800" stop="20260809103000 +0800">
 		<title lang="zh">实况录像-2026世界杯 半决赛 法国队-西班牙队</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20260809103000 +0800" stop="20260809120000 +0800">
+		<title lang="zh">WTT横滨冠军赛2026-半决赛</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
@@ -59591,6 +59606,9 @@
 	</programme>
 	<programme channel="newtv超级电影" start="20260809085200 +0800" stop="20260809102500 +0800">
 		<title lang="zh">山歌</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260809102500 +0800" stop="20260809120000 +0800">
+		<title lang="zh">不速之客</title>
 	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
@@ -59636,6 +59654,12 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260809100500 +0800" stop="20260809105000 +0800">
 		<title lang="zh">37_问心</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260809105000 +0800" stop="20260809113600 +0800">
+		<title lang="zh">38_问心</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260809113600 +0800" stop="20260809122600 +0800">
+		<title lang="zh">01_问心2</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -60232,6 +60256,12 @@
 		<title lang="zh">24_红蔷薇（DVD版）</title>
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260809101600 +0800" stop="20260809104600 +0800">
+		<title lang="zh">清心糕好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260809104600 +0800" stop="20260809113200 +0800">
+		<title lang="zh">25_红蔷薇（DVD版）</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260809113200 +0800" stop="20260809120200 +0800">
 		<title lang="zh">清心糕好物推荐</title>
 	</programme>
 	<channel id="newtv精品体育">
