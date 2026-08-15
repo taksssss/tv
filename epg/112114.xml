@@ -17460,6 +17460,12 @@
 	<programme channel="咪咕综合体育" start="20260815170000 +0800" stop="20260815220000 +0800">
 		<title lang="zh">国球荣耀-2026WTT欧洲大满贯 单打1/4决赛、女双决赛 直播</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260815220000 +0800" stop="20260815220500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260815220500 +0800" stop="20260815234500 +0800">
+		<title lang="zh">足球世界-2026足球热身赛 利物浦-摩纳哥</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17546,6 +17552,18 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260815191000 +0800" stop="20260815212000 +0800">
 		<title lang="zh">中国男篮系列热身赛 中国男篮-乌拉圭男篮 直播</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260815212000 +0800" stop="20260815212500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260815212500 +0800" stop="20260815221000 +0800">
+		<title lang="zh">中国榜样篮球季对话孙铭徽</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260815221000 +0800" stop="20260815222000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260815222000 +0800" stop="20260815235500 +0800">
+		<title lang="zh">我爱女篮-25/26赛季季后赛 1/4决赛G3 新疆天山-山东赤水河酒</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -59172,6 +59190,12 @@
 	<programme channel="newtv超级综艺" start="20260815193700 +0800" stop="20260815205600 +0800">
 		<title lang="zh">你好时光</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260815205600 +0800" stop="20260815223300 +0800">
+		<title lang="zh">乐在旅途 第三季</title>
+	</programme>
+	<programme channel="newtv超级综艺" start="20260815223300 +0800" stop="20260815235000 +0800">
+		<title lang="zh">国家宝藏 展演季</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -59226,6 +59250,12 @@
 	<programme channel="newtv超级体育" start="20260815180000 +0800" stop="20260815210000 +0800">
 		<title lang="zh">WTT欧洲大满贯2026-单打1/4决赛 1</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20260815210000 +0800" stop="20260815223500 +0800">
+		<title lang="zh">WTT欧洲大满贯2026-女双决赛</title>
+	</programme>
+	<programme channel="newtv超级体育" start="20260815223500 +0800" stop="20260815000500 +0800">
+		<title lang="zh">实况录像-2026年世界二十岁以下田径锦标赛 2</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
@@ -59270,6 +59300,9 @@
 	</programme>
 	<programme channel="newtv超级电影" start="20260815195500 +0800" stop="20260815223100 +0800">
 		<title lang="zh">变形金刚5：最后的骑士</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260815223100 +0800" stop="20260815001400 +0800">
+		<title lang="zh">深海越狱</title>
 	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
@@ -59357,6 +59390,12 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260815202200 +0800" stop="20260815210700 +0800">
 		<title lang="zh">01_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260815210700 +0800" stop="20260815215500 +0800">
+		<title lang="zh">02_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260815215500 +0800" stop="20260815224100 +0800">
+		<title lang="zh">01_情满九道弯</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -60002,6 +60041,12 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260815204100 +0800" stop="20260815211100 +0800">
 		<title lang="zh">肉松饼好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260815211100 +0800" stop="20260815215500 +0800">
+		<title lang="zh">35_谍战深海之惊蛰[DVD版]</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260815215500 +0800" stop="20260815223900 +0800">
+		<title lang="zh">36_谍战深海之惊蛰[DVD版]</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
