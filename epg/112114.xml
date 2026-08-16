@@ -17700,6 +17700,15 @@
 	<programme channel="咪咕综合体育" start="20260816173500 +0800" stop="20260816191500 +0800">
 		<title lang="zh">中超来噜-2026赛季中超 第22轮 山东泰山-天津津门虎</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260816191500 +0800" stop="20260816192000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260816192000 +0800" stop="20260816194500 +0800">
+		<title lang="zh">欧陆足球版图-英超特辑</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260816194500 +0800" stop="20260816212500 +0800">
+		<title lang="zh">中超来噜-2026赛季中超 第22轮 云南玉昆-成都蓉城</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17765,6 +17774,15 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260816183000 +0800" stop="20260816184500 +0800">
 		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260816184500 +0800" stop="20260816202500 +0800">
+		<title lang="zh">决胜时刻</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260816202500 +0800" stop="20260816203500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260816203500 +0800" stop="20260816221000 +0800">
+		<title lang="zh">国青男篮热身赛 第三场 中国U18男篮-澳大利亚纽纳华丁闪电队</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -59547,6 +59565,12 @@
 	<programme channel="newtv超级综艺" start="20260816174600 +0800" stop="20260816190300 +0800">
 		<title lang="zh">星光大道</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260816190300 +0800" stop="20260816202000 +0800">
+		<title lang="zh">越战越勇</title>
+	</programme>
+	<programme channel="newtv超级综艺" start="20260816202000 +0800" stop="20260816220500 +0800">
+		<title lang="zh">乐在旅途 第三季</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -59643,6 +59667,9 @@
 	<programme channel="newtv超级电影" start="20260816174900 +0800" stop="20260816193000 +0800">
 		<title lang="zh">红番区</title>
 	</programme>
+	<programme channel="newtv超级电影" start="20260816193000 +0800" stop="20260816214000 +0800">
+		<title lang="zh">一代宗师</title>
+	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
 	</channel>
@@ -59720,6 +59747,15 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260816181800 +0800" stop="20260816190400 +0800">
 		<title lang="zh">17_玫瑰的故事</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260816190400 +0800" stop="20260816195000 +0800">
+		<title lang="zh">03_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260816195000 +0800" stop="20260816203600 +0800">
+		<title lang="zh">04_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260816203600 +0800" stop="20260816212500 +0800">
+		<title lang="zh">05_故乡，别来无恙</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -60352,6 +60388,18 @@
 		<title lang="zh">21_潜渊</title>
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260816182000 +0800" stop="20260816185000 +0800">
+		<title lang="zh">肉松饼好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260816185000 +0800" stop="20260816193400 +0800">
+		<title lang="zh">38_谍战深海之惊蛰[DVD版]</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260816193400 +0800" stop="20260816200400 +0800">
+		<title lang="zh">肉松饼好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260816200400 +0800" stop="20260816204800 +0800">
+		<title lang="zh">39_谍战深海之惊蛰[DVD版]</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260816204800 +0800" stop="20260816211800 +0800">
 		<title lang="zh">肉松饼好物推荐</title>
 	</programme>
 	<channel id="newtv精品体育">
