@@ -17514,6 +17514,9 @@
 	<programme channel="咪咕综合体育" start="20260818182500 +0800" stop="20260818185000 +0800">
 		<title lang="zh">欧陆足球版图-英超特辑</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260818190000 +0800" stop="20260818214000 +0800">
+		<title lang="zh">中超来噜-2026赛季中超 第18轮 上海申花-北京国安 直播</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17570,6 +17573,21 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260818183500 +0800" stop="20260818184500 +0800">
 		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260818184500 +0800" stop="20260818190500 +0800">
+		<title lang="zh">数聚赛场</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260818192000 +0800" stop="20260818193000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260818193000 +0800" stop="20260818203000 +0800">
+		<title lang="zh">超级三对三-2026超三联赛</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260818203000 +0800" stop="20260818203500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260818203500 +0800" stop="20260818221000 +0800">
+		<title lang="zh">2026中国男篮系列热身赛 第一场 中国男篮-乌拉圭男篮</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -59064,6 +59082,12 @@
 	<programme channel="newtv超级综艺" start="20260818173200 +0800" stop="20260818184900 +0800">
 		<title lang="zh">星光大道</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260818184900 +0800" stop="20260818200600 +0800">
+		<title lang="zh">越战越勇</title>
+	</programme>
+	<programme channel="newtv超级综艺" start="20260818200600 +0800" stop="20260818212300 +0800">
+		<title lang="zh">全民畅舞</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -59157,6 +59181,12 @@
 	<programme channel="newtv超级电影" start="20260818163500 +0800" stop="20260818183800 +0800">
 		<title lang="zh">反抗军</title>
 	</programme>
+	<programme channel="newtv超级电影" start="20260818183800 +0800" stop="20260818201100 +0800">
+		<title lang="zh">我是卧底</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260818201100 +0800" stop="20260818215100 +0800">
+		<title lang="zh">东北警察故事3</title>
+	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
 	</channel>
@@ -59234,6 +59264,15 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260818180900 +0800" stop="20260818185500 +0800">
 		<title lang="zh">25_玫瑰的故事</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260818185500 +0800" stop="20260818193800 +0800">
+		<title lang="zh">09_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260818193800 +0800" stop="20260818202400 +0800">
+		<title lang="zh">10_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260818202400 +0800" stop="20260818210600 +0800">
+		<title lang="zh">11_故乡，别来无恙</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -59867,6 +59906,15 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260818183300 +0800" stop="20260818190300 +0800">
 		<title lang="zh">肉松饼好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260818190300 +0800" stop="20260818194800 +0800">
+		<title lang="zh">04_无间</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260818194800 +0800" stop="20260818201800 +0800">
+		<title lang="zh">肉松饼好物推荐</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260818201800 +0800" stop="20260818210400 +0800">
+		<title lang="zh">05_无间</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
