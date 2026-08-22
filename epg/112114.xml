@@ -17430,6 +17430,15 @@
 	<programme channel="咪咕综合体育" start="20260822121000 +0800" stop="20260822130000 +0800">
 		<title lang="zh">国球荣耀-2026WTT美国大满贯 男双决赛 林诗栋/黄友政-温瑞博/袁励岑</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260822130000 +0800" stop="20260822130500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260822130500 +0800" stop="20260822144500 +0800">
+		<title lang="zh">足球世界-2026足球热身赛 曼城-马德里竞技</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260822145000 +0800" stop="20260822172000 +0800">
+		<title lang="zh">网球世界-2026WTA迈阿密站女单第3轮 郑钦文-凯斯</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17489,6 +17498,15 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260822120500 +0800" stop="20260822133500 +0800">
 		<title lang="zh">中国篮球时刻-2026国青男篮热身赛 第二场 中国U18男篮-新西兰U18男篮</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260822133500 +0800" stop="20260822135000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260822135000 +0800" stop="20260822144000 +0800">
+		<title lang="zh">最后之舞</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260822144500 +0800" stop="20260822154500 +0800">
+		<title lang="zh">超级三对三-2026超三联赛</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -58671,6 +58689,12 @@
 	<programme channel="newtv超级综艺" start="20260822120100 +0800" stop="20260822132100 +0800">
 		<title lang="zh">信马游疆</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260822132100 +0800" stop="20260822143800 +0800">
+		<title lang="zh">全民畅舞</title>
+	</programme>
+	<programme channel="newtv超级综艺" start="20260822143800 +0800" stop="20260822155500 +0800">
+		<title lang="zh">星光大道</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -58707,6 +58731,12 @@
 	<programme channel="newtv超级体育" start="20260822123500 +0800" stop="20260822125500 +0800">
 		<title lang="zh">艺术里的奥林匹克(4K)</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20260822125500 +0800" stop="20260822142500 +0800">
+		<title lang="zh">实况录像-2026年世界田联钻石联赛 洛桑站(录播)</title>
+	</programme>
+	<programme channel="newtv超级体育" start="20260822142500 +0800" stop="20260822170000 +0800">
+		<title lang="zh">2026年世界羽毛球锦标赛-半决赛1</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
@@ -58736,6 +58766,12 @@
 	</programme>
 	<programme channel="newtv超级电影" start="20260822115000 +0800" stop="20260822132600 +0800">
 		<title lang="zh">特种兵归来之绝地营救</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260822132600 +0800" stop="20260822145200 +0800">
+		<title lang="zh">雷霆缉私</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260822145200 +0800" stop="20260822161100 +0800">
+		<title lang="zh">宝莲灯b7浮尘幻灭</title>
 	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
@@ -58793,6 +58829,18 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260822123300 +0800" stop="20260822130600 +0800">
 		<title lang="zh">11_完美伴侣</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260822130600 +0800" stop="20260822134200 +0800">
+		<title lang="zh">12_完美伴侣</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260822134200 +0800" stop="20260822141600 +0800">
+		<title lang="zh">13_完美伴侣</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260822141600 +0800" stop="20260822145200 +0800">
+		<title lang="zh">14_完美伴侣</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260822145200 +0800" stop="20260822154000 +0800">
+		<title lang="zh">38_玫瑰的故事</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -59399,6 +59447,18 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260822121700 +0800" stop="20260822130200 +0800">
 		<title lang="zh">11_潜行者</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260822130200 +0800" stop="20260822134800 +0800">
+		<title lang="zh">12_潜行者</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260822134800 +0800" stop="20260822142300 +0800">
+		<title lang="zh">美国云杉新一代肾康动力黄金肽-渠道（右）</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260822142300 +0800" stop="20260822150800 +0800">
+		<title lang="zh">13_潜行者</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260822150800 +0800" stop="20260822154300 +0800">
+		<title lang="zh">美国云杉新一代苏糖酸镁益脑黄金-渠道（右）</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
