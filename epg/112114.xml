@@ -17664,6 +17664,12 @@
 	<programme channel="咪咕足球" start="20260823203500 +0800" stop="20260823221000 +0800">
 		<title lang="zh">2026中国男篮系列热身赛  中国男篮-新西兰男篮</title>
 	</programme>
+	<programme channel="咪咕足球" start="20260823221000 +0800" stop="20260823222000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260823222000 +0800" stop="20260823235500 +0800">
+		<title lang="zh">我爱女篮-25/26赛季总决赛G5 山西竹叶青酒-四川蜀道远达</title>
+	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
 	</channel>
@@ -59376,6 +59382,12 @@
 	<programme channel="newtv超级综艺" start="20260823200900 +0800" stop="20260823212800 +0800">
 		<title lang="zh">CMG夏日歌会</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260823212800 +0800" stop="20260823222800 +0800">
+		<title lang="zh">新花路放</title>
+	</programme>
+	<programme channel="newtv超级综艺" start="20260823222800 +0800" stop="20260823231800 +0800">
+		<title lang="zh">远山之约</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -59481,6 +59493,9 @@
 	<programme channel="newtv超级电影" start="20260823193900 +0800" stop="20260823211100 +0800">
 		<title lang="zh">侠路相逢</title>
 	</programme>
+	<programme channel="newtv超级电影" start="20260823211100 +0800" stop="20260823223700 +0800">
+		<title lang="zh">不速之客：谎言</title>
+	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
 	</channel>
@@ -59570,6 +59585,12 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260823202000 +0800" stop="20260823210800 +0800">
 		<title lang="zh">32_故乡，别来无恙</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260823210800 +0800" stop="20260823215300 +0800">
+		<title lang="zh">28_情满九道弯</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260823215300 +0800" stop="20260823223900 +0800">
+		<title lang="zh">29_情满九道弯</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -60215,6 +60236,12 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260823210300 +0800" stop="20260823213800 +0800">
 		<title lang="zh">美国云杉新一代苏糖酸镁益脑黄金-渠道（右）</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260823213800 +0800" stop="20260823222300 +0800">
+		<title lang="zh">32_无间</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260823222300 +0800" stop="20260823225400 +0800">
+		<title lang="zh">肉苁蓉粉 仙草姬国药药材</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
