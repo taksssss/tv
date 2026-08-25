@@ -17553,6 +17553,12 @@
 	<programme channel="咪咕综合体育" start="20260825181500 +0800" stop="20260825195500 +0800">
 		<title lang="zh">英超赛场-26/27赛季 英超 第1轮 赫尔城-曼联</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20260825200500 +0800" stop="20260825201000 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕综合体育" start="20260825201000 +0800" stop="20260825215000 +0800">
+		<title lang="zh">足球世界-26/27赛季 意甲 第1轮 国际米兰-蒙扎</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -17633,6 +17639,18 @@
 	</programme>
 	<programme channel="咪咕足球" start="20260825184500 +0800" stop="20260825190500 +0800">
 		<title lang="zh">数聚赛场</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260825190500 +0800" stop="20260825191500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260825191500 +0800" stop="20260825192000 +0800">
+		<title lang="zh">睛彩AI速报</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260825193000 +0800" stop="20260825203000 +0800">
+		<title lang="zh">超级三对三-2026超三联赛</title>
+	</programme>
+	<programme channel="咪咕足球" start="20260825203500 +0800" stop="20260825221000 +0800">
+		<title lang="zh">NBL城燃之战-25/26赛季 常规赛第20轮 长沙勇胜-上海玄鸟</title>
 	</programme>
 	<channel id="四大名著剧场">
 		<display-name lang="zh">四大名著剧场</display-name>
@@ -58785,6 +58803,12 @@
 	<programme channel="newtv超级综艺" start="20260825183200 +0800" stop="20260825194900 +0800">
 		<title lang="zh">开门大吉</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20260825194900 +0800" stop="20260825210600 +0800">
+		<title lang="zh">全民畅舞</title>
+	</programme>
+	<programme channel="newtv超级综艺" start="20260825210600 +0800" stop="20260825222300 +0800">
+		<title lang="zh">爱上这座城</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -58839,6 +58863,9 @@
 	<programme channel="newtv超级体育" start="20260825183000 +0800" stop="20260825193000 +0800">
 		<title lang="zh">实况录像-2026年世界羽毛球锦标赛 2</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20260825193000 +0800" stop="20260825213000 +0800">
+		<title lang="zh">CMG群众篮球争霸赛(浙江苍南站)-A组(呼和浩特队- 苍南队)</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
@@ -58883,6 +58910,12 @@
 	</programme>
 	<programme channel="newtv超级电影" start="20260825175000 +0800" stop="20260825190000 +0800">
 		<title lang="zh">极速风云</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260825190000 +0800" stop="20260825203100 +0800">
+		<title lang="zh">暗影2</title>
+	</programme>
+	<programme channel="newtv超级电影" start="20260825203100 +0800" stop="20260825214300 +0800">
+		<title lang="zh">特警使命：狙击风暴</title>
 	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
@@ -58964,6 +58997,18 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20260825181800 +0800" stop="20260825190300 +0800">
 		<title lang="zh">01_我的后半生</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260825190300 +0800" stop="20260825194900 +0800">
+		<title lang="zh">02_我的后半生</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260825194900 +0800" stop="20260825203400 +0800">
+		<title lang="zh">03_我的后半生</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260825203400 +0800" stop="20260825212000 +0800">
+		<title lang="zh">04_我的后半生</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20260825212000 +0800" stop="20260825220500 +0800">
+		<title lang="zh">35_情满九道弯</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -59597,6 +59642,18 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20260825180800 +0800" stop="20260825185400 +0800">
 		<title lang="zh">30_潜行者</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260825185400 +0800" stop="20260825193700 +0800">
+		<title lang="zh">01_黎明决战</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260825193700 +0800" stop="20260825201200 +0800">
+		<title lang="zh">美国云杉新一代肾康动力黄金肽-渠道（右）</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260825201200 +0800" stop="20260825205600 +0800">
+		<title lang="zh">02_黎明决战</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20260825205600 +0800" stop="20260825213100 +0800">
+		<title lang="zh">美国云杉新一代苏糖酸镁益脑黄金-渠道（右）</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
