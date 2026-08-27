@@ -28,7 +28,7 @@ def create_zip(zip_path, icon_dir, new_epg_data_path):
 def fetch_alias_data(local_path='ku9/alias.json'):
     """获取频道别名数据，优先在线，失败则使用本地文件"""
     try:
-        response = requests.get('https://diyp.112114.xyz/alias', timeout=10)
+        response = requests.get('https://epg.112114.xyz/alias', timeout=10)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
