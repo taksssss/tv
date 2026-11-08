@@ -283,6 +283,9 @@
   <channel id="729">
     <display-name lang="zh">山东体育</display-name>
   </channel>
+  <channel id="732">
+    <display-name lang="zh">山东少儿</display-name>
+  </channel>
   <channel id="734">
     <display-name lang="zh">山东综艺</display-name>
   </channel>
@@ -327,6 +330,9 @@
   </channel>
   <channel id="933">
     <display-name lang="zh">云南都市</display-name>
+  </channel>
+  <channel id="934">
+    <display-name lang="zh">云南影视</display-name>
   </channel>
   <channel id="1025">
     <display-name lang="zh">安徽经济生活</display-name>
@@ -8587,6 +8593,98 @@
       <title>结束</title>
       <desc>此阶段没有电视节目播放。</desc>
     </programme>
+    <programme start="20261109001800 +0800" stop="20261109002700 +0800" channel="934">
+      <title>影视气象站</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109002700 +0800" stop="20261109013000 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109013000 +0800" stop="20261109031000 +0800" channel="934">
+      <title>好剧跟我看</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109031000 +0800" stop="20261109032500 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109032500 +0800" stop="20261109064800 +0800" channel="934">
+      <title>晚间节目结束</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109064800 +0800" stop="20261109070600 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109070600 +0800" stop="20261109085600 +0800" channel="934">
+      <title>好剧跟我看</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109085600 +0800" stop="20261109102200 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109102200 +0800" stop="20261109111400 +0800" channel="934">
+      <title>天下电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109111400 +0800" stop="20261109113100 +0800" channel="934">
+      <title>购物时段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109113100 +0800" stop="20261109125500 +0800" channel="934">
+      <title>天下电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109125500 +0800" stop="20261109131800 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109131800 +0800" stop="20261109151700 +0800" channel="934">
+      <title>五星电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109151700 +0800" stop="20261109153800 +0800" channel="934">
+      <title>购物时段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109153800 +0800" stop="20261109164500 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109164500 +0800" stop="20261109165500 +0800" channel="934">
+      <title>晚间节目开播</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109165500 +0800" stop="20261109184600 +0800" channel="934">
+      <title>五星电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109184600 +0800" stop="20261109190900 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109190900 +0800" stop="20261109205600 +0800" channel="934">
+      <title>好剧跟我看</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109205600 +0800" stop="20261109211200 +0800" channel="934">
+      <title>调剂节目</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109211200 +0800" stop="20261109220700 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109220700 +0800" stop="20261109221800 +0800" channel="934">
+      <title>车影视界</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109221800 +0800" stop="20261109235959 +0800" channel="934">
+      <title>天下电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
     <programme start="20261109084500 +0800" stop="20261109092900 +0800" channel="933">
       <title>第一剧场</title>
       <desc>暂无节目描述</desc>
@@ -15850,6 +15948,118 @@
     <programme start="20261109222400 +0800" stop="20261110011000 +0800" channel="38">
       <title>精英剧场</title>
       <desc>山东卫视深夜播出。</desc>
+    </programme>
+    <programme start="20261109000000 +0800" stop="20261109060000 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者1》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109060000 +0800" stop="20261109073000 +0800" channel="732">
+      <title>节目：《超级语文课第四季》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109073000 +0800" stop="20261109073800 +0800" channel="732">
+      <title>节目：《国宝在山东第一季》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109073800 +0800" stop="20261109075900 +0800" channel="732">
+      <title>节目：《成长没烦恼》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109075900 +0800" stop="20261109081000 +0800" channel="732">
+      <title>节目：《科普总动员》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109081000 +0800" stop="20261109091300 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者11狂野新宇宙》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109091300 +0800" stop="20261109102300 +0800" channel="732">
+      <title>动画片：《熊出没之环球大冒险》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109102300 +0800" stop="20261109103300 +0800" channel="732">
+      <title>节目：《国学小名士》精彩片段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109103300 +0800" stop="20261109115500 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者12之古古怪界有古怪》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109115500 +0800" stop="20261109120600 +0800" channel="732">
+      <title>节目：《国学小名士》精彩片段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109120600 +0800" stop="20261109125900 +0800" channel="732">
+      <title>动画片：《熊出没之怪兽计划》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109125900 +0800" stop="20261109133000 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者12之古古怪界有古怪》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109133000 +0800" stop="20261109141600 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者13破界山海诀》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109141600 +0800" stop="20261109142800 +0800" channel="732">
+      <title>节目：《国学小名士》精彩片段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109142800 +0800" stop="20261109153600 +0800" channel="732">
+      <title>动画片：《熊出没》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109153600 +0800" stop="20261109154600 +0800" channel="732">
+      <title>节目：《国学小名士》精彩片段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109154600 +0800" stop="20261109165400 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者9疯狂超能营》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109165400 +0800" stop="20261109172600 +0800" channel="732">
+      <title>动画片：《熊熊帮帮团4》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109172600 +0800" stop="20261109175700 +0800" channel="732">
+      <title>动画片：《熊熊帮帮团5》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109175700 +0800" stop="20261109182100 +0800" channel="732">
+      <title>动画片：《熊出没之神奇宝物2》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109182100 +0800" stop="20261109183600 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者13破界山海诀》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109183600 +0800" stop="20261109192600 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者11狂野新宇宙》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109192600 +0800" stop="20261109200000 +0800" channel="732">
+      <title>动画片：《熊出没之小小世界2》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109200000 +0800" stop="20261109203200 +0800" channel="732">
+      <title>节目：《2026金话筒电视大赛》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109203200 +0800" stop="20261109214200 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者8心世界奇遇》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109214200 +0800" stop="20261109225900 +0800" channel="732">
+      <title>节目：《2025中华家庭诗词擂台赛》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109225900 +0800" stop="20261109234600 +0800" channel="732">
+      <title>动画片：《猪猪侠之超星五灵侠3》</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261109234600 +0800" stop="20261109235959 +0800" channel="732">
+      <title>动画片：《喜羊羊与灰太狼羊村守护者1》</title>
+      <desc>暂无节目描述</desc>
     </programme>
     <programme start="20261109001200 +0800" stop="20261109004200 +0800" channel="735">
       <title>中国原产递</title>
@@ -43746,6 +43956,98 @@
     <programme start="20261110235900 +0800" stop="20261111001300 +0800" channel="1967">
       <title>结束</title>
       <desc>此阶段没有电视节目播放。</desc>
+    </programme>
+    <programme start="20261110001800 +0800" stop="20261110002700 +0800" channel="934">
+      <title>影视气象站</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110002700 +0800" stop="20261110013000 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110013000 +0800" stop="20261110031000 +0800" channel="934">
+      <title>好剧跟我看</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110031000 +0800" stop="20261110032500 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110032500 +0800" stop="20261110064800 +0800" channel="934">
+      <title>晚间节目结束</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110064800 +0800" stop="20261110070600 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110070600 +0800" stop="20261110085600 +0800" channel="934">
+      <title>好剧跟我看</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110085600 +0800" stop="20261110102200 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110102200 +0800" stop="20261110111400 +0800" channel="934">
+      <title>天下电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110111400 +0800" stop="20261110113100 +0800" channel="934">
+      <title>购物时段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110113100 +0800" stop="20261110125500 +0800" channel="934">
+      <title>天下电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110125500 +0800" stop="20261110131800 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110131800 +0800" stop="20261110151700 +0800" channel="934">
+      <title>五星电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110151700 +0800" stop="20261110153800 +0800" channel="934">
+      <title>购物时段</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110153800 +0800" stop="20261110164500 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110164500 +0800" stop="20261110165500 +0800" channel="934">
+      <title>晚间节目开播</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110165500 +0800" stop="20261110184600 +0800" channel="934">
+      <title>五星电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110184600 +0800" stop="20261110190900 +0800" channel="934">
+      <title>跟我看电影</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110190900 +0800" stop="20261110205600 +0800" channel="934">
+      <title>好剧跟我看</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110205600 +0800" stop="20261110211200 +0800" channel="934">
+      <title>调剂节目</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110211200 +0800" stop="20261110220700 +0800" channel="934">
+      <title>电影故事会</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110220700 +0800" stop="20261110221800 +0800" channel="934">
+      <title>车影视界</title>
+      <desc>暂无节目描述</desc>
+    </programme>
+    <programme start="20261110221800 +0800" stop="20261110235959 +0800" channel="934">
+      <title>天下电影</title>
+      <desc>暂无节目描述</desc>
     </programme>
     <programme start="20261110021200 +0800" stop="20261110024300 +0800" channel="933">
       <title>楼市风云</title>
