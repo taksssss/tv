@@ -31,3 +31,7 @@ https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz
 https://gitee.com/taksssss/tv/raw/main/epg/epgpw_hk.xml.gz
 https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz
 ```
+
+## 免责声明
+
+本项目收录的图标及相关资源均整理自互联网，仅供学习与交流使用。相关资源的版权及其他权利均归原作者或权利人所有。如内容侵犯您的合法权益，请通过 Issue 联系我们，我们将及时核实并删除。
